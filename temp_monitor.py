@@ -18,8 +18,7 @@ def add_reading(monitor, temp):
    
 
 def count(monitor):
-    total= len(monitor["readings"])
-    return total
+    return len(monitor["readings"])
 
 def average_temp(monitor):
    len(monitor)
