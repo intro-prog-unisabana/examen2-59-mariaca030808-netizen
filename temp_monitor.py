@@ -10,20 +10,20 @@ def init(max_readings):
     """
     Crea y retorna un diccionario para almacenar hasta max_readings lecturas.
     """
-    DictCompleto= {max_readings}
-    return DictCompleto
-
+    max= {max_readings}
+    return max
 
 def add_reading(monitor, temp):
-    
-    monitor= monitor[].append(temp)
-    DictCompleto= {}.append(temp)
-    return DictCompleto
+   monitor=input()
+   readings= [].append(monitor, temp)
+   return readings
 
 def count(monitor):
-    return len(monitor)
+    total= len(monitor)
+    return total
 
 def average_temp(monitor):
+    len(monitor)
     
 
 def format_readings(monitor):
