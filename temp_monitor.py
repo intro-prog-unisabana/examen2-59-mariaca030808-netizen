@@ -7,11 +7,10 @@
 #   - 'total':    suma total de todas las temperaturas (float)
 
 def init(max_readings):
-    """
-    Crea y retorna un diccionario para almacenar hasta max_readings lecturas.
-    """
-    max= {max_readings}
-    return max
+ dictt= {"max": int(max_readings),
+         "readings": [],
+         "total": float()}
+ return dictt
 
 def add_reading(monitor, temp):
    lecturas=[]
