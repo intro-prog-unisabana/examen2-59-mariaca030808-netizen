@@ -21,7 +21,7 @@ def count(monitor):
     return len(monitor["readings"])
 
 def average_temp(monitor):
-   len(monitor)
+   return (monitor["total"])// len(monitor["readings"])
     
 
 def format_readings(monitor):
