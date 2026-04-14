@@ -13,13 +13,12 @@ def init(max_readings):
  return dictt
 
 def add_reading(monitor, temp):
-   monitor['readings'].append(temp)
-   monitor['total']+= temp
+   monitor["readings"].append(temp)
+   monitor["total"]+= temp
    return monitor
    
-
 def count(monitor):
-    return len(monitor)
+    return len(monitor["total"])
 
 def average_temp(monitor):
    len(monitor)
