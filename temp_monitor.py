@@ -13,8 +13,9 @@ def init(max_readings):
  return dictt
 
 def add_reading(monitor, temp):
-   monitor, temp
-   return 
+ monitor=input(monitor, temp)
+ return monitor
+   
 
 def count(monitor):
     total= len(monitor["readings"])
