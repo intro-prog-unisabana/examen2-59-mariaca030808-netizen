@@ -14,8 +14,8 @@ def init(max_readings):
     return max
 
 def add_reading(monitor, temp):
-   monitor=input()
-   readings= [].append(monitor, temp)
+   lecturas=[]
+   readings= lecturas.append(monitor, temp)
    return readings
 
 def count(monitor):
@@ -23,7 +23,7 @@ def count(monitor):
     return total
 
 def average_temp(monitor):
-    len(monitor)
+   len(monitor)
     
 
 def format_readings(monitor):
